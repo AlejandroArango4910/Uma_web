@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlazeHeader {
+    padding: 15px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.enlazeHeader:hover {
+    color: red;
+    font-weight: 500;
+    transform: scale(1.1);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.umaMusumes {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+
+}
+
+.musume {
+    
+    display: grid;
+    /* gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    width: auto;
+    border-radius: 10px;
+    min-height: 300px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size:cover;
+    background-position: top;
+}
+
+.card .textos {
+    height: 100%;
+    color: rgb(247, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+}
