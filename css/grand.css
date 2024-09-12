@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(58, 148, 187);
+    color: rgb(5, 28, 176);
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlazeHeader {
+    padding: 15px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: transition .3s;
+}
+
+.enlazeHeader:hover {
+    color: rgb(0, 0, 0);;
+    font-weight: 500;
+    transform: scale(1.1);
+}
+
+body {
+    background-color:rgb(5, 28, 176); ;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 28, 176);
+}
+
+.contenedor {
+    /*Usar grid template areas para dar estructura, imagenes a la izquierda, descripcion a la derecha*/
+}
